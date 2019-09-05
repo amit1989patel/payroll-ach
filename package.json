@@ -1,7 +1,7 @@
 {
-  "name": "@payroll/nach2",
-  "version": "1.0.0",
-  "description": "nACH is a highly customizable Node.js module exposing a high & low-level API for generating ACH files for use within the ACH network",
+  "name": "payroll-ach",
+  "version": "1.0.1",
+  "description": "npm module to create ach file",
   "main": "index.js",
   "directories": {
     "lib": "lib",
@@ -12,21 +12,26 @@
     "lodash": "^4.14.1",
     "moment": "^2.14.1"
   },
-  "deprecated": false,
-  "description": "nACH is a highly customizable Node.js module exposing a high & low-level API for generating ACH files for use within the ACH network",
   "devDependencies": {
     "chai": "latest",
     "mocha": "latest"
   },
-  "engines": {
-    "node": ">= 0.10.0"
-  },
   "scripts": {
     "test": "NODE_ENV=test ./node_modules/.bin/mocha --reporter spec --recursive"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amit1989patel/payroll-ach.git"
+  },
   "keywords": [
+    "ach",
+    "npm",
     "nach"
   ],
   "author": "amit kumar",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amit1989patel/payroll-ach/issues"
+  },
+  "homepage": "https://github.com/amit1989patel/payroll-ach#readme"
 }
